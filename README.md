@@ -1,4 +1,9 @@
-# Tender Scraper
+Hello there.
+This is first my test scraper for your suggested website: alertaalertalicitacao.com.br.
+You can try intall this project on your Laptop, and if you meet any issues, plz let me know.
+And if you have some question and more requirements, send me message again.
+
+Read and follow this step by step install and run:
 
 A Node.js-based web scraper for extracting tender information from alertalicitacao.com.br. This tool automatically searches and extracts tender details, saving them in both JSON and Excel formats.
 
@@ -25,8 +30,8 @@ A Node.js-based web scraper for extracting tender information from alertalicitac
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/dev-guardian0/tender-scraper.git
-cd tender-scraper
+git clone https://github.com/Salvelop07/alertalicitacao_scraper.git
+cd alertalicitacao_scraper
 ```
 
 2. Install dependencies:
@@ -46,7 +51,7 @@ npx playwright install chromium
 Run the scraper with default settings:
 
 ```bash
-node scraper.js
+node scraper.js or npm start
 ```
 
 ### Configuration
