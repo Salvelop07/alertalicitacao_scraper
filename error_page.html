@@ -1,0 +1,280 @@
+<!DOCTYPE html><html lang="pt-br"><head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+
+    <!-- Google tag (gtag.js) -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-5DB0ZEDRMF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-5DB0ZEDRMF');
+    </script>
+
+
+    <script src="/js/licitacoesAjax.js"></script>
+    <!--
+    <script src="/service-worker.js"></script>
+    -->
+
+    <meta name="description" content="O maior banco de dados de busca e Alerta de novas Licitações do Brasil">    
+    <meta name="author" content="">
+
+        <script src="/js/cidades.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "http://www.alertalicitacao.com.br",
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "telephone": "+55-44-98832-0450",
+        "contactType": "customer service"
+      }]
+    }
+    </script>
+
+
+    <title>Licitações de catarata</title>
+    <!--
+    <script src="https://www.google.com/recaptcha/api.js?render=6LdiEssUAAAAAN7Bos3WR1Le5t7jydWn4q3wlfUp"></script>
+    <script>
+    grecaptcha.ready(function() {
+        grecaptcha.execute('6LdiEssUAAAAAN7Bos3WR1Le5t7jydWn4q3wlfUp', {action: 'alerta'}).then(function(token) {
+          $.get("/ajax/recaptcha.php?token="+token, function(data) {
+
+          });
+        });
+    });
+    </script>
+   -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link href="/bower_components/bootstrap-social/bootstrap-social.css" rel="stylesheet">
+
+    <link href="/css/nav.css" rel="stylesheet">
+
+    <link href="/css/ribbon.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="/bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Timeline CSS -->
+    <link href="/dist/css/timeline.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/dist/css/sb-admin-2.css" rel="stylesheet">
+    <!-- Social Buttons -->
+    <link href="/css/social.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="/bower_components/morrisjs/morris.css" rel="stylesheet">
+    <link href="/css/toggleSwitch.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- DataTables CSS -->
+    <link href="/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="/css/alertaLicitacao-v2.css" rel="stylesheet">
+
+    <!-- DataTables Responsive CSS -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <!-- jQuery -->
+    <!--
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+
+    <script src="/js/jquery.mask.min.js"></script>
+    <script src="/js/bindWithDelay.js"></script>
+    <script src="/js/facebook.js"></script>
+    <script src="/js/licitacaoUtils.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/imask/6.4.3/imask.min.js" integrity="sha512-yJ3vm1HmQtcgeMtbUYCp7PuTLyjU+ffCnVNTuE1Uccv1BmkoaJIXt1EjBVGnscjCILc62hTJJJ2rJJBTcw8RjQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="/bower_components/bootstrap/js/tab.js"></script>
+
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+</head>
+
+    <body>
+    
+    <div id="wrapper">
+
+                <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">Alerta Licitação
+                </a>
+
+
+		
+            </div>
+            <!-- /.navbar-header -->
+
+
+            <ul class="nav navbar-top-links navbar-right">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+              <li class="dropdown" style="float:right;margin-right: 10px;">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                    </a>
+                    
+                      <ul class="dropdown-menu dropdown-user">
+                          <li><a href="/!login"><i class="fa fa-user fa-fw"></i> Login</a>
+                          </li>
+                          <li><a href="/!login/loginSenha"><i class="fa fa-user fa-fw"></i> Login antigo</a>
+                          </li>
+                      </ul>
+                                          
+                    <!-- /.dropdown-user -->
+                </li>
+            </ul>
+
+
+
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav in" id="side-menu">
+                        <li class="sidebar-search">
+                            <div class="input-group custom-search-form">
+                                <form id="formBusca" action="/!busca" method="POST">
+                                <input type="text" class="form-control" name="q" placeholder="Procurar..." value="catarata">
+                                </form>
+                                <span class="input-group-btn">
+                                <button class="btn btn-default" type="button" onclick="document.getElementById('formBusca').submit();">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </span>
+                            </div>
+                            <!-- /input-group -->
+                        </li>
+
+                        
+                        <li>
+                            <a href="/" class="active"><i class="fa fa-dashboard fa-fw"></i> Painel geral</a>
+                        </li>
+                        <li>
+                            <a href="/!estado"><i class="fa fa-edit fa-fw"></i> Por Estado</a>
+                        </li>
+                        <li>
+                            <a href="/!uasg"><i class="fa fa-edit fa-fw"></i> Por Código UASG</a>
+                        </li>
+                        <li>
+                            <a href="/!tipo"><i class="fa fa-edit fa-fw"></i> Por Modalidade</a>
+                        </li>
+
+                        <li>
+                             <a href="/!buscaItens"><i class="fa fa-umbrella fa-fw"></i> Busca Itens</a>
+                          </li>
+
+<!--
+                        <li>
+                            <a href="/!cnae"><i class="fa fa-life-ring fa-fw"></i> Por CNAE</a>
+                        </li>
+-->
+                        <li>
+                            <a href="/!municipios"><i class="fa fa-building fa-fw"></i> Municípios</a>
+                        </li>
+<!--
+                        <li>
+                            <a href="/!cnpj"><i class="fa fa-building fa-fw"></i> Busca CNPJ</a>
+                        </li>
+-->
+                        <li>
+                            <a href="/!termometro"><i class="fa fa-bar-chart fa-fw"></i> Tendências</a>
+                        </li>
+                        <li>
+                            <a href="/!pertodevoce"><i class="fa fa-globe fa-fw"></i> Licitações perto de você</a>
+                        </li>
+                        <li>
+                            <a href="/!alerta"><i class="fa fa-paper-plane-o fa-fw"></i> Alerta por email</a>
+                        </li>
+                        <li>
+                            <a href="/!mudancas"><i class="fa fa-question-circle fa-fw"></i> Atualizações</a>
+                        </li>
+			<li><a title="Opção exclusiva para assinantes" href="/!exclusivoAssinantes"><i class="fa fa-money fa-fw"></i> Por preço</a></li><li><a title="Opção exclusiva para assinantes" href="/!exclusivoAssinantes"><i class="fa fa-trophy fa-fw"></i> Top 50</a></li>
+
+                    </ul>
+		                </div>
+                <!-- /.sidebar-collapse -->
+		
+            </div>
+        </nav>
+
+        <div id="page-wrapper" style="min-height: 669px;">
+<!--
+            <p><br/><br/><span class='alert alert-danger'>Manutenção em breve.</span><br /><br />
+
+	    <p class='text text-danger'>Devido ao feriado municipal em Maringá (PR), nosso atendimento pelo WhatsApp pode demorar mais que o normal.</p>
+-->
+
+            <div class="row">
+<h1>Busca por palavra-chave</h1><p>A busca por palavra-chave é permitida somente para assinantes do Alerta Licitação.<br></p><p>Somos o melhor mecanismo de busca de avisos de licitação do Brasil, diariamente varremos mais de 5.000 sites, e incluímos em nosso banco de dados mais em média mais de 3.000 licitações por dia.<br></p><p><b>Nossos planos são:</b></p>* <b>R$ 39,90/mês</b>: Acesso ilimitado ao site e envio de dois emails diários com alertas de licitações, no cartão de crédito ou boleto.<p></p>* <b>1x R$209,90</b> adiantado para 6 meses, equivalente a R$19,98 por mês. Mesmos benefícios do plano mensal, mas com custo-benefício melhor.<p></p><p>Todas as transações são executadas em ambiente seguro, intermediadas pelo pagSeguro.</p><p>A ativação por cartão de crédito ou por boleto tem liberação imediata, mesmo antes da compensação.</p><p><a class="btn btn-primary" href="/!meupainel">Clique aqui e assine</a></p></div>
+<hr><p><b>Exemplos de licitações encontradas</b></p><div class="panel" id="l-LCON-RS-1228408">
+<h3><a href="/!licitacao/LCON-RS-1228408" title="Chamamento Público / Credenciamento 13/2024">Chamamento Público / Credenciamento 13/2024</a> <small>(82 visual.)</small></h3><p><small><b>Identificador desta licitação:</b> LCON-RS-1228408</small></p><p class="alertalicitacao"><strong>Abertura: </strong> 24/07/2025 00:00</p><p><b>Cidade:</b> Morro Reuter - RS</p><p><b>Orgão:</b> PM DE MORRO REUTER</p><p><span class="bg-success"><b>Valor</b>: R$ 91.080,00</span></p><p class="no-class"><b></b> solicitação de abertura de processo licitatório para contratação de empresa para prestação de serviços médicos na área de oftalmologia, especificamente para realização de cirurgias corretivas de <span style="background-color:yellow">catarata</span> com realização de exames pré e pós-operatórios, conforme especificações constantes neste termo de referência.</p></div>
+<div class="panel" id="l-PNCP-08923971000115-1-000001-2026">
+<h3><a href="/!licitacao/PNCP-08923971000115-1-000001-2026" title="Edital de Chamamento Público 2/2026">Edital de Chamamento Público 2/2026</a> <small>(12 visual.)</small></h3><p><small><b>Identificador desta licitação:</b> PNCP-08923971000115-1-000001-2026</small></p><p><small><b>Portal: </b> ComprasNet</small></p><p class="alertalicitacao"><strong>Data de abert<span>u</span>ra: </strong> 31/12/2026  13:00</p><p><b>UASG:</b> 981975</p><p><b>Cidade:</b> Cajazeiras - PB</p><p><b>Orgão:</b> MUNICIPIO DE CAJAZEIRAS</p><p><span class="bg-success"><b>Valor</b>: R$ 1.272.750,00</span></p><p class="no-class"><b></b> credenciamento de empresa especializada em realização de cirurgias de <span style="background-color:yellow">catarata</span> e correção de pterígio para atender a demanda da secretaria de saúde do município de cajazeiras - pb</p></div>
+
+        </div>
+        <!-- /#page-wrapper -->
+
+
+
+        <div class="whatsapp-link print-hidden hidden-print">
+            <a href="https://api.whatsapp.com/send?phone=5544988320450" target="blank">
+                <img width="128px" src="https://alertalicitacao.com.br/img/whatsappv1.png" alt="">
+            </a>
+        </div>
+
+
+    </div>
+    <!-- /#wrapper -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="/bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+    
+    <!-- DataTables JavaScript -->
+    <script src="/bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+    <script src="/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/dist/js/sb-admin-2.js"></script>
+
+        <footer style="padding:15px; background-color:#665; color:#EEE">
+        <p class="text text-center">Alerta Licitação | <a class="linkNoCinza" href="/!privacidade">Política de privacidade</a> | <a class="linkNoCinza" href="/!sobre">Quem somos</a> | <a class="linkNoCinza" href="/!desenvolvedores">Para desenvolvedores</a> | <a class="linkNoCinza" href="/!api">API de Licitações</a> | <a class="linkNoCinza" href="/!cadastro">Cadastre-se</a></p>
+        <p class="text text-center">Rua dos Pinheiros, 136. SL 01. Maringá-PR. Email: contato@alertalicitacao.com.br</p>
+        <p class="text text-center">Boina Azul Sistemas Ltda. CNPJ 33.839.112/0001-90 | WhatsApp (44) 98832-0450</p>
+    </footer>
+
+    
+
+    
+
+
+</body></html>

@@ -1,0 +1,13 @@
+{
+  "name": "tender-scraper",
+  "version": "1.0.0",
+  "description": "Tender scraper for alertalicitacao.com.br",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js"
+  },
+  "dependencies": {
+    "playwright": "^1.42.1",
+    "xlsx": "^0.18.5"
+  }
+}
